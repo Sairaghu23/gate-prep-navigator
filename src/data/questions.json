@@ -1,0 +1,492 @@
+{
+  "CSE": {
+    "Algorithms": {
+      "easy": [
+        {
+          "question": "What is the time complexity of linear search?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "correctAnswer": 2,
+          "topic": "Searching Algorithms"
+        },
+        {
+          "question": "Which sorting algorithm has best case complexity of O(n)?",
+          "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Heap Sort"],
+          "correctAnswer": 2,
+          "topic": "Sorting Algorithms"
+        },
+        {
+          "question": "Binary search works on which type of array?",
+          "options": ["Unsorted", "Sorted", "Partially sorted", "Any array"],
+          "correctAnswer": 1,
+          "topic": "Searching Algorithms"
+        },
+        {
+          "question": "What is the space complexity of iterative binary search?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "correctAnswer": 0,
+          "topic": "Searching Algorithms"
+        },
+        {
+          "question": "Which data structure uses LIFO principle?",
+          "options": ["Queue", "Stack", "Array", "Linked List"],
+          "correctAnswer": 1,
+          "topic": "Data Structures"
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the average time complexity of Quick Sort?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+          "correctAnswer": 1,
+          "topic": "Sorting Algorithms"
+        },
+        {
+          "question": "Which algorithm is used for finding strongly connected components?",
+          "options": ["Dijkstra's", "Kruskal's", "Kosaraju's", "Prim's"],
+          "correctAnswer": 2,
+          "topic": "Graph Algorithms"
+        },
+        {
+          "question": "What is the space complexity of merge sort?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+          "correctAnswer": 2,
+          "topic": "Sorting Algorithms"
+        },
+        {
+          "question": "Which of the following is NOT a stable sorting algorithm?",
+          "options": ["Merge Sort", "Bubble Sort", "Quick Sort", "Insertion Sort"],
+          "correctAnswer": 2,
+          "topic": "Sorting Algorithms"
+        },
+        {
+          "question": "What is the time complexity of building a heap from an array?",
+          "options": ["O(log n)", "O(n)", "O(n log n)", "O(n²)"],
+          "correctAnswer": 1,
+          "topic": "Data Structures"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "What is the worst-case time complexity of Quick Sort?",
+          "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+          "correctAnswer": 2,
+          "topic": "Sorting Algorithms"
+        },
+        {
+          "question": "In a min-heap with n elements, what is the time complexity to extract minimum?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "correctAnswer": 1,
+          "topic": "Data Structures"
+        },
+        {
+          "question": "Which algorithm is optimal for the 0/1 Knapsack problem?",
+          "options": ["Greedy", "Dynamic Programming", "Divide and Conquer", "Backtracking"],
+          "correctAnswer": 1,
+          "topic": "Dynamic Programming"
+        },
+        {
+          "question": "What is the time complexity of Floyd-Warshall algorithm?",
+          "options": ["O(V²)", "O(V³)", "O(V²logV)", "O(VE)"],
+          "correctAnswer": 1,
+          "topic": "Graph Algorithms"
+        },
+        {
+          "question": "Which technique is used to solve the Travelling Salesman Problem optimally?",
+          "options": ["Greedy", "Dynamic Programming with bitmask", "Divide and Conquer", "Linear Programming"],
+          "correctAnswer": 1,
+          "topic": "Dynamic Programming"
+        }
+      ]
+    },
+    "Data Structures": {
+      "easy": [
+        {
+          "question": "Which data structure is used to implement recursion?",
+          "options": ["Queue", "Stack", "Tree", "Graph"],
+          "correctAnswer": 1,
+          "topic": "Stack"
+        },
+        {
+          "question": "In a linked list, what does the last node point to?",
+          "options": ["First node", "Previous node", "NULL", "Itself"],
+          "correctAnswer": 2,
+          "topic": "Linked Lists"
+        },
+        {
+          "question": "Which operation is NOT supported by a stack?",
+          "options": ["Push", "Pop", "Peek", "Random access"],
+          "correctAnswer": 3,
+          "topic": "Stack"
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the maximum height of an AVL tree with n nodes?",
+          "options": ["O(log n)", "O(n)", "O(√n)", "O(n log n)"],
+          "correctAnswer": 0,
+          "topic": "Trees"
+        },
+        {
+          "question": "In a circular linked list, the last node points to:",
+          "options": ["NULL", "First node", "Previous node", "Itself"],
+          "correctAnswer": 1,
+          "topic": "Linked Lists"
+        },
+        {
+          "question": "Which traversal technique is used in expression evaluation?",
+          "options": ["Preorder", "Inorder", "Postorder", "Level order"],
+          "correctAnswer": 2,
+          "topic": "Trees"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "What is the amortized time complexity of Union-Find with path compression?",
+          "options": ["O(1)", "O(log n)", "O(α(n))", "O(n)"],
+          "correctAnswer": 2,
+          "topic": "Union-Find"
+        },
+        {
+          "question": "In a B-tree of order m, maximum number of keys in a node is:",
+          "options": ["m", "m-1", "m+1", "2m"],
+          "correctAnswer": 1,
+          "topic": "B-Trees"
+        }
+      ]
+    },
+    "Computer Networks": {
+      "easy": [
+        {
+          "question": "Which layer of OSI model handles routing?",
+          "options": ["Physical", "Data Link", "Network", "Transport"],
+          "correctAnswer": 2,
+          "topic": "OSI Model"
+        },
+        {
+          "question": "What does HTTP stand for?",
+          "options": ["HyperText Transfer Protocol", "High Transfer Text Protocol", "HyperText Transport Protocol", "High Text Transfer Protocol"],
+          "correctAnswer": 0,
+          "topic": "Application Layer"
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the default subnet mask for Class B network?",
+          "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+          "correctAnswer": 1,
+          "topic": "IP Addressing"
+        },
+        {
+          "question": "Which protocol is used for reliable data transfer?",
+          "options": ["UDP", "TCP", "IP", "ICMP"],
+          "correctAnswer": 1,
+          "topic": "Transport Layer"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Which algorithm is used in distance vector routing?",
+          "options": ["Dijkstra's", "Bellman-Ford", "Floyd-Warshall", "Kruskal's"],
+          "correctAnswer": 1,
+          "topic": "Routing"
+        },
+        {
+          "question": "What is the maximum transmission unit (MTU) for Ethernet?",
+          "options": ["512 bytes", "1024 bytes", "1500 bytes", "2048 bytes"],
+          "correctAnswer": 2,
+          "topic": "Data Link Layer"
+        }
+      ]
+    },
+    "Database Management": {
+      "easy": [
+        {
+          "question": "What does SQL stand for?",
+          "options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "System Query Language"],
+          "correctAnswer": 0,
+          "topic": "SQL Basics"
+        },
+        {
+          "question": "Which command is used to retrieve data from a database?",
+          "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
+          "correctAnswer": 2,
+          "topic": "SQL Commands"
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the purpose of normalization?",
+          "options": ["Increase redundancy", "Reduce redundancy", "Increase storage", "Decrease performance"],
+          "correctAnswer": 1,
+          "topic": "Normalization"
+        },
+        {
+          "question": "Which normal form eliminates transitive dependencies?",
+          "options": ["1NF", "2NF", "3NF", "BCNF"],
+          "correctAnswer": 2,
+          "topic": "Normalization"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "What is the time complexity of B+ tree search operation?",
+          "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+          "correctAnswer": 1,
+          "topic": "Indexing"
+        },
+        {
+          "question": "Which isolation level prevents phantom reads?",
+          "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+          "correctAnswer": 3,
+          "topic": "Transaction Management"
+        }
+      ]
+    }
+  },
+  "ECE": {
+    "Signals & Systems": {
+      "easy": [
+        {
+          "question": "What is the unit of frequency?",
+          "options": ["Hertz", "Watts", "Volts", "Amperes"],
+          "correctAnswer": 0,
+          "topic": "Basic Concepts"
+        },
+        {
+          "question": "A signal that repeats itself after a fixed time period is called:",
+          "options": ["Aperiodic", "Periodic", "Random", "Deterministic"],
+          "correctAnswer": 1,
+          "topic": "Signal Classification"
+        }
+      ],
+      "medium": [
+        {
+          "question": "What is the Fourier Transform of a unit impulse function δ(t)?",
+          "options": ["1", "0", "∞", "δ(ω)"],
+          "correctAnswer": 0,
+          "topic": "Fourier Analysis"
+        },
+        {
+          "question": "A system is said to be causal if:",
+          "options": ["Output depends on future inputs", "Output depends only on present and past inputs", "Output is independent of input", "System is linear"],
+          "correctAnswer": 1,
+          "topic": "System Properties"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "The Z-transform of unit step function is:",
+          "options": ["1/(1-z⁻¹)", "z/(z-1)", "1/(z-1)", "z⁻¹/(1-z⁻¹)"],
+          "correctAnswer": 1,
+          "topic": "Z-Transform"
+        },
+        {
+          "question": "ROC of Z-transform for a right-sided sequence is:",
+          "options": ["|z| < R", "|z| > R", "R₁ < |z| < R₂", "|z| = R"],
+          "correctAnswer": 1,
+          "topic": "Z-Transform"
+        }
+      ]
+    },
+    "Digital Electronics": {
+      "easy": [
+        {
+          "question": "How many states can a flip-flop have?",
+          "options": ["1", "2", "4", "8"],
+          "correctAnswer": 1,
+          "topic": "Sequential Circuits"
+        }
+      ],
+      "medium": [
+        {
+          "question": "How many flip-flops are required for a MOD-16 counter?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": 2,
+          "topic": "Counters"
+        },
+        {
+          "question": "Which gate is called a universal gate?",
+          "options": ["AND", "OR", "NAND", "XOR"],
+          "correctAnswer": 2,
+          "topic": "Logic Gates"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "In 2's complement representation, -5 in 4-bit is:",
+          "options": ["1011", "1010", "1101", "1111"],
+          "correctAnswer": 0,
+          "topic": "Number Systems"
+        }
+      ]
+    }
+  },
+  "ME": {
+    "Thermodynamics": {
+      "easy": [
+        {
+          "question": "What is the SI unit of energy?",
+          "options": ["Joule", "Watt", "Calorie", "BTU"],
+          "correctAnswer": 0,
+          "topic": "Basic Concepts"
+        }
+      ],
+      "medium": [
+        {
+          "question": "Which law of thermodynamics deals with entropy?",
+          "options": ["Zeroth law", "First law", "Second law", "Third law"],
+          "correctAnswer": 2,
+          "topic": "Laws of Thermodynamics"
+        },
+        {
+          "question": "For an ideal gas, which process has maximum work output?",
+          "options": ["Isothermal", "Adiabatic", "Isobaric", "Isochoric"],
+          "correctAnswer": 0,
+          "topic": "Thermodynamic Processes"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Carnot cycle consists of:",
+          "options": ["2 isothermal + 2 adiabatic processes", "2 isobaric + 2 isochoric processes", "4 isothermal processes", "4 adiabatic processes"],
+          "correctAnswer": 0,
+          "topic": "Carnot Cycle"
+        }
+      ]
+    },
+    "Fluid Mechanics": {
+      "easy": [
+        {
+          "question": "What is the SI unit of pressure?",
+          "options": ["Pascal", "Newton", "Bar", "Atmosphere"],
+          "correctAnswer": 0,
+          "topic": "Basic Concepts"
+        }
+      ],
+      "medium": [
+        {
+          "question": "Bernoulli's equation is based on:",
+          "options": ["Conservation of mass", "Conservation of energy", "Conservation of momentum", "Newton's law"],
+          "correctAnswer": 1,
+          "topic": "Fluid Flow"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Reynolds number is the ratio of:",
+          "options": ["Inertial to viscous forces", "Pressure to viscous forces", "Gravitational to inertial forces", "Elastic to inertial forces"],
+          "correctAnswer": 0,
+          "topic": "Dimensional Analysis"
+        }
+      ]
+    }
+  },
+  "CE": {
+    "Structural Engineering": {
+      "easy": [
+        {
+          "question": "What is the basic unit of stress?",
+          "options": ["N/m", "N/m²", "N·m", "N·m²"],
+          "correctAnswer": 1,
+          "topic": "Basic Concepts"
+        }
+      ],
+      "medium": [
+        {
+          "question": "In a simply supported beam, maximum bending moment occurs at:",
+          "options": ["Supports", "Quarter span", "Mid span", "Three-quarter span"],
+          "correctAnswer": 2,
+          "topic": "Bending Moment"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Young's modulus is the ratio of:",
+          "options": ["Stress to strain", "Strain to stress", "Force to area", "Load to deflection"],
+          "correctAnswer": 0,
+          "topic": "Material Properties"
+        }
+      ]
+    },
+    "Concrete Technology": {
+      "easy": [
+        {
+          "question": "What is the main binding material in concrete?",
+          "options": ["Sand", "Cement", "Water", "Aggregate"],
+          "correctAnswer": 1,
+          "topic": "Basic Concepts"
+        }
+      ],
+      "medium": [
+        {
+          "question": "Standard consistency of cement is determined by:",
+          "options": ["Vicat apparatus", "Le-Chatelier apparatus", "Blaine air permeability", "Autoclave"],
+          "correctAnswer": 0,
+          "topic": "Cement Testing"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Water-cement ratio affects:",
+          "options": ["Strength only", "Durability only", "Both strength and durability", "Neither strength nor durability"],
+          "correctAnswer": 2,
+          "topic": "Concrete Mix Design"
+        }
+      ]
+    }
+  },
+  "EE": {
+    "Power Systems": {
+      "easy": [
+        {
+          "question": "What is the frequency of AC supply in India?",
+          "options": ["25 Hz", "50 Hz", "60 Hz", "100 Hz"],
+          "correctAnswer": 1,
+          "topic": "Basic Concepts"
+        }
+      ],
+      "medium": [
+        {
+          "question": "Load factor is the ratio of:",
+          "options": ["Average load to maximum load", "Maximum load to average load", "Peak load to average load", "Connected load to maximum load"],
+          "correctAnswer": 0,
+          "topic": "Load Characteristics"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Which protection is used for transmission lines?",
+          "options": ["Overcurrent", "Distance", "Differential", "Earth fault"],
+          "correctAnswer": 1,
+          "topic": "Protection Systems"
+        }
+      ]
+    },
+    "Control Systems": {
+      "easy": [
+        {
+          "question": "What is a feedback system?",
+          "options": ["Open loop system", "Closed loop system", "Linear system", "Nonlinear system"],
+          "correctAnswer": 1,
+          "topic": "Basic Concepts"
+        }
+      ],
+      "medium": [
+        {
+          "question": "For a stable system, poles should lie in:",
+          "options": ["Right half of s-plane", "Left half of s-plane", "On imaginary axis", "At origin"],
+          "correctAnswer": 1,
+          "topic": "Stability"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "Root locus technique is used for:",
+          "options": ["Frequency response", "Time response", "Stability analysis", "All of the above"],
+          "correctAnswer": 3,
+          "topic": "Root Locus"
+        }
+      ]
+    }
+  }
+}
