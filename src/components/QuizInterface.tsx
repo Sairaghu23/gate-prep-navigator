@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Clock, ArrowLeft, ArrowRight, Flag, CheckCircle, AlertTriangle } from "lucide-react";
 import { TestConfig } from "./TestSelectionForm";
 import { questionService, Question } from "../services/questionService";
+import { authService } from "@/services/authService";
 
 
 interface QuizInterfaceProps {

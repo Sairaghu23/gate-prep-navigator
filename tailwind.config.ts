@@ -80,7 +80,8 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-success': 'var(--gradient-success)',
-				'gradient-background': 'var(--gradient-background)'
+				'gradient-background': 'var(--gradient-background)',
+				'gradient-card': 'var(--gradient-card)'
 			},
 			keyframes: {
 				'accordion-down': {
